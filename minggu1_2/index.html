@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Akrom Taufiqurrozak A12.2025.07419</title>
+</head>
+
+<body>
+
+    <!-- Header Halaman -->
+    <header>
+        <center>
+            <h1>PORTOFOLIO AKROM TAUFIQURROZAK</h1>
+            <h3>Program Studi Sistem Informasi - Universitas Dian Nuswantoro</h3>
+            <!-- membuat garis -->
+            <hr size="3" color="black" width="100%">
+        </center>
+    </header>
+
+    <!-- Navigasi Utama -->
+    <nav>
+        <center>
+            <a href="#profil">Profil Saya</a> |
+            <a href="#pendidikan">Riwayat Pendidikan</a> |
+            <a href="#keahlian">Keahlian & Hobi</a> |
+            <a href="#proyek">Proyek Terkait</a> |
+            <a href="#kontak">Kontak</a>
+        </center>
+    </nav>
+
+    <hr size="1" color="gray" width="100%">
+
+    <!-- Bagian Profil -->
+    <h2 id="judul">A. Profil Saya</h2>
+    <section id="profil">
+
+        <!-- Gambar dengan atribut HTML bawaan (align="left" untuk perataan teks) -->
+        <!-- hspace="15" memberi jarak horizontal 15 piksel antara gambar dan elemen/teks di sekitarnya. -->
+        <img src="/image/Chrysanthemum.jpg" alt="Maaf Foto belum bisa di akses" width="150" height="180" align="left"
+            hspace="20">
+
+
+
+        <p id="percobaan2">
+            Perkenalkan, nama saya Akrom Taufiqurrozak, mahasiswa Sistem Informasi
+            di Fakultas Ilmu Komputer. Saat ini saya berfokus memperdalam pemahaman
+            di bidang web development, manajemen basis data, serta analisis kebutuhan sistem.
+            Saya memiliki rasa ingin tahu yang tinggi terhadap perkembangan teknologi digital
+            dan selalu antusias untuk mengimplementasikan teori perkuliahan ke dalam proyek
+            nyata yang solutif.
+        </p>
+
+        <p class="percobaan3">
+            Website ini disusun sebagai portofolio pribadi berbasis HTML5 murni guna
+            memahami fundamental dari pemetaan elemen web semantik. Seluruh komponen
+            mulai dari navigasi, tabel, hingga formulir interaktif dibuat secara terstruktur
+            sesuai standar perkuliahan. Melalui pengerjaan tugas ini, saya belajar
+            bagaimana membangun fondasi situs yang rapi sebelum nantinya dikembangkan
+            lebih jauh menggunakan style CSS maupun script interaktif.
+        </p>
+
+
+
+        <!-- <br clear="all"> membuat elemen berikutnya turun ke bawah dan tidak lagi dipengaruhi oleh gambar yang di-float. -->
+        <br clear="all">
+    </section>
+
+    <br>
+    <!-- Bagian Pendidikan (Tabel Murni) -->
+    <h2 id="riwayat">B. Riwayat Pendidikan</h2>
+    <section id="pendidikan">
+
+
+        <!-- Tabel menggunakan atribut HTML bawaan: border, cellpadding, cellspacing -->
+        <table border="1" cellpadding="8" cellspacing="0" width="100%">
+            <tr bgcolor="#cccccc">
+                <th>Tingkat Pendidikan</th>
+                <th>Nama Instansi / Sekolah</th>
+                <th>Tahun</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Sekolah Dasar (SD)</td>
+                <td>SD Wonosari 03</td>
+                <td>2013 - 2019</td>
+                <td>Kurikulum 2013</td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Pertama (SMP)</td>
+                <td>SMP 28 Semarang</td>
+                <td>2019 - 2022</td>
+                <td>Kurikulum 2013</td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Atas (SMA)</td>
+                <td>SMA 8 Semarang</td>
+                <td>2022 - 2025</td>
+                <td>Kurikulum Merdeka</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <br>
+
+    <!-- Bagian Keahlian & Hobi (List HTML) -->
+    <section id="keahlian">
+        <h2>C. Keahlian & Hobi</h2>
+
+        <h3>1. Keahlian Utama</h3>
+        <ul>
+            <li>Pemrograman Web dasar</li>
+            <li>Analisis Data</li>
+            <li>Pemodelan Sistem (DFD & ERD)</li>
+        </ul>
+
+        <h3>2. Hobi & Minat</h3>
+        <ol>
+            <li>Membaca dokumentasi di <a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li>Olahraga</li>
+            <li>Editing video</li>
+        </ol>
+    </section>
+
+    <br>
+
+    <!-- Bagian Proyek (Article & Aside) -->
+    <section id="proyek">
+        <h2>D. Proyek & Aktivitas Akademik</h2>
+
+        <article>
+            <h3>Tugas Pemrograman Web 1</h3>
+            <p>
+                Proyek ini adalah pembuatan halaman profil dan form interaktif menggunakan
+                struktur elemen semantik HTML, tabel terstruktur, dan beberapa elemen input form.
+            </p>
+        </article>
+
+        <!-- Element Aside -->
+        <aside>
+            <hr>
+            <p><b>Catatan Kampus:</b> Informasi jadwal perkuliahan dan kurikulum dapat dilihat di portal
+                <a href="https://mhs.dinus.ac.id" target="_blank">Siadin Udinus</a>.
+            </p>
+            <hr>
+        </aside>
+    </section>
+
+    <br>
+
+    <!-- Bagian Form Kontak -->
+    <section id="kontak">
+        <h2>E. Form Kontak Pengunjung</h2>
+        <p>Silakan isi form di bawah ini untuk mengirimkan pesan:</p>
+
+        <!-- Form murni HTML -->
+        <form action="simpan.php" method="post">
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td><label for="fnama">Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fnama" name="fnama" size="30" required></td>
+                </tr>
+                <tr>
+                    <td><label for="femail">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="femail" name="femail" size="30" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" id="pria" name="fjkel" value="Pria">
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="wanita" name="fjkel" value="Wanita">
+                        <label for="wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fprodi">Program Studi</label></td>
+                    <td>:</td>
+                    <td>
+                        <select id="fprodi" name="fprodi">
+                            <option value="SI">Sistem Informasi S1</option>
+                            <option value="TI">Teknik Informatika S1</option>
+                            <option value="DKV">Desain Komunikasi Visual S1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi / Minat</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" id="coding" name="fhobi[]" value="Coding">
+                        <label for="coding">Coding</label>
+                        <input type="checkbox" id="reading" name="fhobi[]" value="Membaca">
+                        <label for="reading">Membaca</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fpesan">Pesan</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea id="fpesan" name="fpesan" rows="4" cols="32"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Kirim Pesan">
+                        <input type="reset" value="Batal">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <br>
+    <hr size="1" color="black">
+
+    <!-- Footer -->
+    <footer>
+        <center>
+            <p>&copy; 2026 Akrom Taufiqurrozak - Pemrograman Web Sistem Informasi Universitas Dian Nuswantoro</p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
